@@ -1,0 +1,26 @@
+li {
+    display: list-item;
+}
+
+::marker {
+    color:rgb(25, 25, 97);
+    font-size: 35px;
+}
+
+.block {
+    display: flex;
+    margin: 10px;
+    background-color: antiquewhite;
+    padding: 15px;
+}
+
+section {
+    display: flex;
+    flex-flow: column;
+    padding: 0 0 0 20px;
+}
+
+audio {
+    background-color: blue;
+    color: blue;
+}

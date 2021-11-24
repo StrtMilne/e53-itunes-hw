@@ -1,5 +1,6 @@
 import React, {useEffect, useState} from "react";
 import ChartSongs from "../components/ChartSongs";
+import "./ChartContainer.css"
 
 const ChartContainer = () => {
 
@@ -18,7 +19,7 @@ const ChartContainer = () => {
 
     return(
         <>
-            <h1>ITunes Chart</h1>
+            <h1>iTunes Chart</h1>
             <ChartSongs chart={chart}/>
         </>
     )
