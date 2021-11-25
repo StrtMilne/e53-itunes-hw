@@ -9,8 +9,9 @@ li {
 
 .block {
     display: flex;
-    margin: 10px;
-    background-color: antiquewhite;
+    margin: 10px 40px 10px 10px;
+    border-radius: 2px 2px 105px 2px;
+    background: linear-gradient(0.25turn, antiquewhite, rgb(255, 208, 146));
     padding: 15px;
 }
 
@@ -21,6 +22,6 @@ section {
 }
 
 audio {
-    background-color: blue;
+    background-color:rgb(252, 176, 125);
     color: blue;
 }
